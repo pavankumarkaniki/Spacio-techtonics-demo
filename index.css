@@ -15,9 +15,9 @@
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    padding-top: 20px;
+    padding-top: 10px;
     background-color: #ffffff;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     padding-left: 80px;
     padding-right: 80px;
 }
@@ -112,6 +112,11 @@
     background-color: transparent;
     border-width: 0px;
     font-weight: bold;
+}
+@media screen and (max-width:767px) {
+    .book-appointment-btn {
+        font-size: 20px;
+    }
 }
 .arrow-icon {
     color: #ffffff;
@@ -242,6 +247,7 @@
     padding-left: 80px;
     background-size: cover;
     padding-right: 80px;
+    width: 100%;
 }
 
 .arrows-container {
@@ -266,6 +272,8 @@
 
 /* map section */
 .map-section-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
     min-height: 100vh;
     background-color: #fcf7f7;
     padding-left: 80px;
@@ -273,6 +281,7 @@
     flex-direction: column;
     justify-content: center;
     padding-right: 80px;
+    width: 100%;
 }
 .map-sub-section-container {
     display: flex;
@@ -343,6 +352,7 @@
 
 .latest-work-container {
     height: 100vh;
+    width: 100%;
     padding: 20px 50px;
     display: flex;
     flex-direction: column;
@@ -354,6 +364,7 @@
     position: relative;
     overflow: hidden;
     width: 100%; 
+    height:80vh;
 }
 
 .carousel {
@@ -368,7 +379,7 @@
 img {
     margin: auto;
     width: 70%;
-    height: 60%;
+    height: 100%;
     border-radius: 20px;
 }
 
@@ -416,6 +427,7 @@ img {
     padding-right: 50px;
     min-height: 100vh;
     background-color: #ffffff;
+    width: 100%;
 }
 
 .insights-sub-container {
@@ -460,9 +472,12 @@ img {
 .bottom-container {
     min-height: 100vh;
     padding-left: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     padding-right: 80px;
     background-image: url('https://i.imghippo.com/files/vAbn9983o.png');
     background-size: cover;
+    width: 100%;
 }
 
 .btm-container {
@@ -589,6 +604,7 @@ img {
     background-color: #242222;
     height: 40vh;
     padding-left: 50px;
+    width: 100%;
     padding-right: 50px;
 }
 
@@ -646,4 +662,165 @@ img {
 
 .call-icon {
     color: #ffffff;
+}
+@media only screen and (max-width: 767px) {
+    * {
+        font-size: 90%; 
+    }
+
+    .logo-img {
+        height: 30px;
+    }
+
+    .nav-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .logo-head {
+        font-size: 20px;
+    }
+    .logo-para {
+        font-size: 18px;
+    }
+    .logo-img {
+        height: 30px;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .nav-button {
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+
+    /* Top Section */
+    .bg-container {
+        padding: 20px;
+    }
+
+    .top-section-description {
+        font-size: 28px;
+    }
+
+    .span-1,
+    .span-2 {
+        font-size: 30px;
+    }
+
+    .book-appointment-btn {
+        font-size: 20px;
+    }
+
+    /* Button Container */
+    .button-container {
+        padding: 5px 10px;
+    }
+
+    /* WST Section */
+    .wst-head {
+        font-size: 40px;
+    }
+
+    .wst-description {
+        font-size: 18px;
+    }
+
+    .wst-span,
+    .wst-span-end {
+        font-size: 18px;
+    }
+
+    /* Third Section */
+    .exceptional-head {
+        font-size: 28px;
+        margin-top: 20px;
+    }
+
+    .arrows-container {
+        gap: 10px;
+    }
+
+    /* Map Section */
+    .map-section-description {
+        font-size: 20px;
+    }
+
+    .map-img {
+        height: 300px;
+    }
+
+    .city {
+        font-size: 16px;
+    }
+
+    .map-buttons {
+        font-size: 12px;
+    }
+
+    .btn-nums {
+        font-size: 20px;
+    }
+
+    /* Carousel */
+    .carousel-con img {
+        width: 90%;
+        height: auto;
+    }
+
+    .prev-btn,
+    .next-btn {
+        padding: 5px;
+    }
+
+    /* Insights Section */
+    .list-con {
+        height: auto;
+        padding: 20px;
+    }
+
+    .insights-para {
+        font-size: 18px;
+    }
+
+    .date {
+        font-size: 16px;
+    }
+
+    /* Bottom Nav */
+    .bottom-container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .bottom-nav-item {
+        display: none;
+    }
+
+    .bottom-head {
+        font-size: 36px;
+    }
+
+    .bottom-para,
+    .bottom-span,
+    .bottom-high {
+        font-size: 20px;
+    }
+
+    /* Footer */
+    .footer-head {
+        font-size: 20px;
+    }
+
+    .footer-para {
+        font-size: 14px;
+    }
+
+    .call-us {
+        font-size: 20px;
+    }
+
+    .copy-right-para-white {
+        font-size: 16px;
+    }
 }
